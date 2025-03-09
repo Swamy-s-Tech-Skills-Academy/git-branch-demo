@@ -48,6 +48,7 @@ git push -u origin swamy/feature1
 ### 3.3. Keep Feature1 Aligned with Main (Rebase)
 
 > 1. When new commits are added to **main** (e.g., through merging PRs), update your feature branch by rebasing:
+> 1. This repositions **swamy/feature1** on top of the latest **main** commit, ensuring it always shows “0 behind main.”
 
 ```powershell
   git checkout swamy/feature1
@@ -55,5 +56,3 @@ git push -u origin swamy/feature1
   git rebase origin/main
   git push --force-with-lease
 ```
-
-> 1. This repositions **swamy/feature1** on top of the latest **main** commit, ensuring it always shows “0 behind main.”
