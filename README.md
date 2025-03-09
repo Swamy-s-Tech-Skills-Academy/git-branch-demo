@@ -56,3 +56,5 @@ git push -u origin swamy/feature1
   git rebase origin/main
   git push --force-with-lease origin swamy/feature1
 ```
+
+> 1. This repositions **swamy/feature1** on top of the latest **main** commit, ensuring it always shows “0 behind main.”
