@@ -65,4 +65,3 @@ git push -u origin swamy/feature1
   git checkout -b swamy/feature1 main
   git push -u origin swamy/feature1
   ```
->>>>>>> c0f20c8 (Update README.md)
