@@ -24,6 +24,7 @@ git pull origin main
 
 ## 3. Create and Set Up **swamy/feature1**
 
+<<<<<<< HEAD
 ### 3.1. Create the Feature Branch from main
 
 ```powershell
@@ -57,3 +58,11 @@ git push -u origin swamy/feature1
 ```
 
 > 1. This repositions **swamy/feature1** on top of the latest **main** commit, ensuring it always shows “0 behind main.”
+=======
+- **Create the Feature Branch from main:**
+
+  ```sh
+  git checkout -b swamy/feature1 main
+  git push -u origin swamy/feature1
+  ```
+>>>>>>> c0f20c8 (Update README.md)
