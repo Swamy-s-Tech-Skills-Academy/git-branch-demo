@@ -43,6 +43,8 @@ git push -u origin swamy/feature1
     git push origin swamy/feature1
 ```
 
+![Pushed to Feature 1](./docs/images/PushedToFeature1.PNG.jpg)
+
 ### 3.3. Keep Feature1 Aligned with Main (Rebase)
 
 > 1. When new commits are added to **main** (e.g., through merging PRs), update your feature branch by rebasing:
